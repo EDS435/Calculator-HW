@@ -8,7 +8,7 @@ def test_subtraction():
     assert subtract(2,2) == 0
 
 def test_multiplication():
-    assert multiply(2,2) == 4
+    assert multiply(2,3) == 6
 
 def test_division():
     assert divide(2,2) == 1
