@@ -13,9 +13,7 @@ class Calcs2:
         return Calcs2(a, b, operation)
 
     def perform(self) -> Decimal:
-        """Perform the stored calculation and return the result."""
         return self.operation(self.a, self.b)
 
     def __repr__(self):
-        """Return a simplified string representation of the calculation."""
         return f"Calculation({self.a}, {self.b}, {self.operation.__name__})"
